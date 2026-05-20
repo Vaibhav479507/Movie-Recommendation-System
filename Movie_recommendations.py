@@ -14,8 +14,7 @@ def get_base64(img_path):
 
 def set_background():
 
-    img_path = r"C:\Users\AsusT\OneDrive\Desktop\ML\movie_poster.png"
-
+    img_path = "movie_poster.png"
     img_base64 = get_base64(img_path)
 
     st.markdown(
