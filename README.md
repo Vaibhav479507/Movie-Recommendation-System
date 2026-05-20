@@ -1,13 +1,25 @@
 # Movie Recommendation System
 
-A Streamlit based movie recommendation system using Machine Learning.
+🎬 A Machine Learning based movie recommendation system built using Streamlit.
+
+## Live Demo
+
+[Open App](https://movie-recommendation-system-m9i3y.streamlit.app/)
 
 ## Features
-- Movie recommendations
+- Movie recommendation system
 - Movie posters using OMDB API
-- Beautiful UI with background image
+- Streamlit UI
+- ML similarity model
 
-## Run
+## Technologies Used
+- Python
+- Streamlit
+- Scikit-learn
+- Joblib
+- Requests
+
+## Run Locally
 
 ```bash
 streamlit run Movie_recommendations.py
